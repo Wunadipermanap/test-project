@@ -1,15 +1,15 @@
-*{
+* {
   list-style: none;
   padding: 0;
 }
 
-body{
+body {
   background-color: floralwhite;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
-  
+
 header {
   /* background-color: rgba(82, 23, 81,0.2); */
   padding: 10px;
@@ -24,7 +24,7 @@ header {
 
 #container p a {
   text-decoration: none;
-  color: rgb(24,24,24);
+  color: rgb(24, 24, 24);
   margin: 10px;
   width: 100%;
   font-size: 40px;
@@ -54,18 +54,16 @@ header {
   text-align: center;
 }
 
-
 #container li:hover {
   color: black;
   /* text-decoration: underline; */
   background-color: rgb(119, 227, 235);
-  border-radius:10px;
+  border-radius: 10px;
 }
 
-
 footer {
-  background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
-  padding: 20px ;
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  padding: 10px;
   margin: 20px 0 0 0;
 }
 
@@ -76,10 +74,9 @@ footer p {
   color: aliceblue;
 }
 
-
-footer ul{
+footer ul {
   margin: 0;
-  padding: 40px ;
+  padding: 10px;
   display: flex;
   justify-content: center;
 }
@@ -87,10 +84,12 @@ footer ul{
 footer li {
   width: 60px;
   height: 60px;
-  margin: 0 50px;
+  margin: 0 30px;
 }
 
 footer img {
-  width: 100%;
-  height: 100%;
+  max-width: 70%;
+  display: block;
+  height: auto;
+  margin: auto;
 }

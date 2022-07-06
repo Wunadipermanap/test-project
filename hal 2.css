@@ -1,65 +1,69 @@
-*{
-    text-decoration: none;
-    --color:rgb(255, 250, 250);
+* {
+  text-decoration: none;
+  --color: rgb(255, 250, 250);
 }
 
 body {
-    background: linear-gradient(60deg, rgb(55, 176, 212),rgb(174, 226, 205));
+  background: linear-gradient(60deg, rgb(55, 176, 212), rgb(174, 226, 205));
 }
 
 header {
-    position: static;
-    /* background-color: blue; */
+  position: static;
+  /* background-color: blue; */
 }
 
 main ul {
-    width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px 20px;
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
 }
 
-main li:nth-of-type(3){
-    grid-column: 1 /span  2;
-    /* width: 100%; */
+main li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+  /* width: 100%; */
+}
+
+main li:nth-of-type(6) {
+  grid-column: 1 / span 2;
+  /* width: 100%; */
 }
 
 main li {
-    display: flex;
-    background-color: var(--color) ;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0,0,2);
-    border-radius: 8px;
-    overflow: hidden;
-    /* width: 500px; */
-    
+  display: flex;
+  background-color: var(--color);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0, 2);
+  border-radius: 8px;
+  overflow: hidden;
+  /* width: 500px; */
 }
 
-main li img{
-    width: 300px;
-    height: 280px;
-    object-fit: cover;
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
 }
 
 .item-content {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .actions {
-    text-align: right;
-    margin: 5px;
+  text-align: right;
+  margin: 5px;
 }
 
-.actions a{
-    color: rgb(22, 211, 228);
-    padding: 6px;
-    border-radius: 5px;
+.actions a {
+  color: rgb(22, 211, 228);
+  padding: 6px;
+  border-radius: 5px;
 }
 
-.actions a:hover{
-    background-color: rgb(235, 253, 255);
+.actions a:hover {
+  background-color: rgb(235, 253, 255);
 }
